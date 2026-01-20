@@ -1,0 +1,9 @@
+sudo pacman -S tesseract tesseract-data-tur
+
+python -m venv .venv
+
+source .venv/bin/activate
+
+pip install pytesseract Pillow
+pip install opencv-python
+
