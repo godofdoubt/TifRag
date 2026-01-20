@@ -1,3 +1,9 @@
+
+
+
+
+
+
 sudo pacman -S tesseract tesseract-data-tur
 
 python -m venv .venv
