@@ -1,8 +1,5 @@
-
-
-
-
-
+--------------------------------------------------------
+Kurulum:
 
 sudo pacman -S tesseract tesseract-data-tur
 
@@ -12,4 +9,24 @@ source .venv/bin/activate
 
 pip install pytesseract Pillow
 pip install opencv-python
+-------------------------------------------------------
 
+
+ÖRNEKLERİN SONUCU:
+==================================================
+TOPLAM 2 SAYFA ANALİZ SONUÇLARI
+==================================================
+
+[SAYFA 1]
+  Kurum/Fakülte      : EĞİTİM FAKÜLTESİ
+  Tespit Edilen Form : AKADEMİK İZİN FORMU
+  Bulunan Tarihler   : 21/01/2025
+  T.C. Kimlik No     : 12345678933
+--------------------------------------------------
+
+[SAYFA 2]
+  Kurum/Fakülte      : UYGULAMALI BİLİMLER FAKÜLTESİ
+  Tespit Edilen Form : ÖĞRENCİ BİLGİ FORMU
+  Bulunan Tarihler   : 22/02/1922, 20/01/2026
+  T.C. Kimlik No     : 12345678922
+--------------------------------------------------
